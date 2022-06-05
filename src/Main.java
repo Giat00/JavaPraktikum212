@@ -1,19 +1,31 @@
-
+import frame.PenggunaCreateForm;
+import frame.PenggunaCreateFrame;
 import helper.MyConnection;
+//import frame.PenggunaViewForm;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+import javax.swing.*;
 
-/**
- *
- * @author GIAT
- */
 public class Main {
-       public static void main(String[] args){
-           MyConnection my = new MyConnection();
-           my.getConnection();
-       }
+    public static void main(String[] args) {
+//        PenggunaCreateFrame frame = new PenggunaCreateFrame();
+//        frame.meletakkanKomponen();        frame.menambahkanListener();
+//        frame.setVisible(true);
+
+//        PenggunaViewForm vf = new PenggunaViewForm();
+//        vf.setContentPane(vf.panelMain);
+//        vf.pack();
+//        vf.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        vf.setLocationRelativeTo(null);
+//        vf.setVisible(true);
+
+//        PenggunaCreateForm f = new PenggunaCreateForm();
+//        f.setContentPane(f.panelMain);
+//        f.setTitle("Input Data Pengguna");
+//        f.pack();
+//        f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+//        f.setLocationRelativeTo(null);
+//        f.setVisible(true);
+          MyConnection mY = new MyConnection();
+          mY.getConnection();
+    }
 }
